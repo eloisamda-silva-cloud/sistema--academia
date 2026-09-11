@@ -1,5 +1,15 @@
 programa
 {
+
+  funcao real calcularIMC(real peso, real altura)
+{
+    real imc
+
+    imc = peso / (altura * altura)
+
+    retorne imc
+}
+
     funcao inicio()
     {
         cadeia nome
@@ -23,6 +33,8 @@ programa
         escreva("Peso: ", peso, " kg\n")
 
         escreva("\nCadastro realizado com sucesso!")
+
+        
     }
 }
 
